@@ -5,7 +5,6 @@ Un portafolio moderno y responsivo construido con **Next.js 15**, **TypeScript**
 ## ✨ Características
 
 - **Diseño Moderno**: Interfaz limpia y profesional con animaciones sutiles
-- **Modo Oscuro/Claro**: Modo oscuro por defecto con toggle para cambiar a modo claro
 - **Completamente Responsivo**: Optimizado para todos los dispositivos
 - **Performance Optimizada**: Construido con Next.js 15 y mejores prácticas
 - **SEO Friendly**: Meta tags optimizados y estructura semántica
