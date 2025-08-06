@@ -33,19 +33,30 @@ html {
   overflow: hidden;
 }
 
-/* Animación de cambio de color */
-@keyframes color-change {
+/* Animación de glow que respira suavemente */
+@keyframes shimmer-sparkle {
   0% {
-    color: #1e40af; /* azul oscuro */
+    text-shadow: 
+      0 0 5px rgba(59, 130, 246, 0.3),
+      0 0 10px rgba(59, 130, 246, 0.2),
+      0 0 15px rgba(59, 130, 246, 0.1);
   }
   50% {
-    color: #2563eb; /* azul medio */
+    text-shadow: 
+      0 0 10px rgba(59, 130, 246, 0.6),
+      0 0 20px rgba(59, 130, 246, 0.4),
+      0 0 30px rgba(59, 130, 246, 0.2),
+      0 0 40px rgba(59, 130, 246, 0.1);
   }
   100% {
-    color: #1e40af; /* azul oscuro */
+    text-shadow: 
+      0 0 5px rgba(59, 130, 246, 0.3),
+      0 0 10px rgba(59, 130, 246, 0.2),
+      0 0 15px rgba(59, 130, 246, 0.1);
   }
 }
 
-.animate-color-change {
-  animation: color-change 2s ease-in-out infinite;
+.animate-shimmer {
+  color: #2563eb;
+  animation: shimmer-sparkle 4s ease-in-out infinite;
 }

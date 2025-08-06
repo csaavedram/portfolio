@@ -30,7 +30,7 @@ const AboutSection = () => {
             <div className="text-center lg:text-left">
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">
                 Hola, soy{' '}
-                <span className="text-blue-600 dark:text-blue-400 animate-shimmer hover:animate-bounce transition-all duration-300 inline-block relative">{aboutInfo.name}</span>
+                <span className="text-blue-600 dark:text-blue-400 animate-shimmer inline-block relative">{aboutInfo.name}</span>
               </h1>
               <h2 className="text-2xl lg:text-3xl text-gray-700 dark:text-gray-300 mb-6">
                 {aboutInfo.title}
