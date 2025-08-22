@@ -88,34 +88,6 @@ src/
     └── index.ts           # Interfaces y tipos
 ```
 
-## 🚀 Deployment
-
-### Vercel (Recomendado)
-1. Haz push de tu código a GitHub
-2. Conecta tu repositorio en [Vercel](https://vercel.com)
-3. Deploy automático en cada push
-
-### Netlify
-1. Haz push de tu código a GitHub
-2. Conecta tu repositorio en [Netlify](https://netlify.com)
-3. Configura el build command: `npm run build`
-4. Deploy automático
-
-### Build Manual
-```bash
-npm run build
-npm start
-```
-
-## 🎯 Próximas Mejoras
-
-- [ ] Animaciones más avanzadas
-- [ ] Blog integrado
-- [ ] Sistema de comentarios
-- [ ] Analytics integrado
-- [ ] Más temas de color
-- [ ] Modo de contraste alto
-
 ## 📝 Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
